@@ -1,37 +1,29 @@
 <img width="860" alt="스크린샷 2024-11-10 오전 6 16 02" src="https://github.com/user-attachments/assets/71600efe-0de8-46ef-ae66-0488c23d33c8">
 
-
-The **ABCD Project** is a platform designed to enhance user engagement through multimedia content creation, social interactions, and data-driven insights. It combines features like user-generated posts, multimedia uploads, and interactive feedback mechanisms to create a dynamic and engaging user experience. This document provides an overview of ABCD’s core functionalities, features, and system requirements.
+ABCD 프로젝트는 사용자의 인생을 **단편 기록** 단위로 기록 및 공유하는 플랫폼입니다.
 
 ## ❓ Introduction
 
-The ABCD Project is a multi-functional social platform designed to empower users with tools for creating, sharing, and interacting with multimedia content. Users can register, post images and records, track feedback on their posts, and explore popular content based on various engagement metrics. Leveraging advanced data storage and analysis, ABCD delivers personalized insights and recommendations, creating a unique experience tailored to individual user interests.
+ABCD 프로젝트는 자신의 인생기록을 **단편 기록**단위로 기록 및 공유하여 인생을 영화처럼 기록하는 소셜 플랫폼입니다. 사용자는 회원가입 후 이미지와 기록을 게시하고, 게시물에 대한 **평론과 평점**(피드백)을 확인하며, 다양한 지표 기반으로 인기 기록을 탐색할 수 있습니다.
 
 <br/>
 
 ## 🍀 Core Features
 
-| Interactive Feedback and Ratings                                                                                                                                                                                      | **Top Commented Posts**                                                                                                                                  | Calendar-Based Content Retrieval                                                                                                   |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| - Self and Comment Ratings: Users can rate their own posts(SelfRating)<br />and receive feedback from others through comment ratings. <br />Ratings provide a quantitative measure of engagement and content quality. | - The platform identifies the top 3 posts from the previous<br />day with the most comments, showcasing popular content and<br />encouraging user interaction. | - Users can retrieve all posts created within a specific month,<br />allowing them to revisit past content in a structured format. |
+| 인터랙티브 피드백 및 평점                                                                                                                                                                                                                | **가장 많은 댓글이 달린 인생기록**                                                                                                        | 달력 기반 인생기록 조회                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| - 개인 기록(단편 영화)에 대한 <br/>평점+평론: 사용자는 자신의 게시물에 <br/>평점을 매기고, 댓글 평론을 통해 다른 사용자로부터 피드백(평점+평론)을<br />받을 수 있습니다. 평점은 참여도와 콘텐츠<br />에 대한 정량적인 지표를 제공합니다. | - 플랫폼은 전날 댓글이 가장 많이 달린 상위 3개의<br />게시물을 선정(**오스카상**)하여 인기 기록을<br />선정하고 사용자 참여를 독려합니다. | - 사용자는 특정 월에 작성된 모든 게시물을<br />조회할 수 있으며, 이를 통해 과거 기록을<br />돌아볼 수 있습니다. |
 
 ## 🛠 Project Architecure
 
 <img width="541" alt="스크린샷 2024-11-10 오전 6 49 59" src="https://github.com/user-attachments/assets/568234cd-9c5d-49e7-bf17-61d9501af246">
 
-## 📽 Demo Video Link
-
-
-## 📲 API Documentation
-
-https://inthon-89962661006.asia-northeast3.run.app/docs
-
 ## 👪 Contributors
 
 **South Korea** 🇰🇷
-**Korea Univ. Seoul Campus** `<img src="https://upload.wikimedia.org/wikipedia/ko/thumb/3/34/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90_%EB%A1%9C%EA%B3%A0.svg/400px-%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90_%EB%A1%9C%EA%B3%A0.svg.png?20201002132654" width="18" />`
+**Korea Univ. Seoul Campus**
 
-- Sanghoon Jeong
-- Seongjin Lee
-- Kyoomin Kim
-- Sangjin Park
+- 정상훈 - 서버 / 배포
+- 이성진 - 프론트 / 배포
+- 김규민 - 서버 / 배포
+- 박상진 - 서버 / 배포
